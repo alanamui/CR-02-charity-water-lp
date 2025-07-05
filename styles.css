@@ -40,12 +40,18 @@ section {
   margin: 24px 10px; /* Space between sections */
   padding: 24px 16px;
 }
-
+/* This sets a background image for the whole page */
+.background-image {
+  background-image: url('https://cdn2.dropmarkusercontent.com/52043/0024fd95f07bd1de043a400c6a5f9ee023ae6f9c805f31249d407784bea7a18a/preview/Zimbabwe_2022_CG-8639.jpg?Expires=1751714780&Signature=k7IdZZKtJ4XwyxVFATKIpwFkbZkV5v2qCTAoCkt0fIJhSPcpkJhJnEVme1qdW2JXx5orKZUmMT-ZjZvt6o~iwJnrzn02HHNsdqa4nkoQ9~hWKuNQVj-4a4F3VYCQJ5qZKOyywjqL4ycIyvpJgBqN6suWxK-RJhB51mrbucyy9r9-Fbi0cDR7wxJZxxtlJuFI2VUeeeBYxFSx0O3UYapSuT6U6NL9iezLfwD0H8qHhotTYrYSu6uCuor32BoxHrJg5X9rSvFYsW6PYnYnfzqk60Q6fy3GvtYTAS6B9YroeXoOjmdPAKCz4SirPO7FJ8qs0OZWnVPcqa9tOR3x54ixiw__&Key-Pair-Id=APKAITQYWVEN757ZA4KQ'); /* Change to your image path */
+  background-size: cover;    /* Makes the image cover the whole page */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center;  /* Centers the image */
+}
 /* Hero Section Styles */
 .hero {
   position: relative; /* Needed for overlay */
   /* Set a background image that covers the whole section */
-  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80');
+  background-image: url('https://cdn2.dropmarkusercontent.com/52043/0024fd95f07bd1de043a400c6a5f9ee023ae6f9c805f31249d407784bea7a18a/preview/Zimbabwe_2022_CG-8639.jpg?Expires=1751714780&Signature=k7IdZZKtJ4XwyxVFATKIpwFkbZkV5v2qCTAoCkt0fIJhSPcpkJhJnEVme1qdW2JXx5orKZUmMT-ZjZvt6o~iwJnrzn02HHNsdqa4nkoQ9~hWKuNQVj-4a4F3VYCQJ5qZKOyywjqL4ycIyvpJgBqN6suWxK-RJhB51mrbucyy9r9-Fbi0cDR7wxJZxxtlJuFI2VUeeeBYxFSx0O3UYapSuT6U6NL9iezLfwD0H8qHhotTYrYSu6uCuor32BoxHrJg5X9rSvFYsW6PYnYnfzqk60Q6fy3GvtYTAS6B9YroeXoOjmdPAKCz4SirPO7FJ8qs0OZWnVPcqa9tOR3x54ixiw__&Key-Pair-Id=APKAITQYWVEN757ZA4KQ');
   background-size: cover;      /* Make the image cover the whole area */
   background-position: center; /* Center the image */
   background-repeat: no-repeat;
@@ -63,7 +69,14 @@ section {
 .top-banner {
     background-color: white; /* Makes the banner white */
     height: 70px;            /* Sets the height of the banner */
-    width: 100%;             /* Makes the banner stretch across the page */
+    width: 100%; 
+                /* Makes the banner stretch across the page */
+    /* This moves the logo image to the right and down */
+.logo {
+  margin-left: 20px; /* moves image right */
+  margin-top: 15px;  /* moves image down */
+}
+
 }
 /* Make the headline bold and modern */
 .hero h1 {
