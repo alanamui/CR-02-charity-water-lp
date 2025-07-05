@@ -59,7 +59,12 @@ section {
   background-blend-mode: darken;
   background-color: rgba(46, 157, 247, 0.45); /* Blue overlay */
 }
-
+/* Top white banner styles */
+.top-banner {
+    background-color: white; /* Makes the banner white */
+    height: 70px;            /* Sets the height of the banner */
+    width: 100%;             /* Makes the banner stretch across the page */
+}
 /* Make the headline bold and modern */
 .hero h1 {
   font-size: 2.5em;
