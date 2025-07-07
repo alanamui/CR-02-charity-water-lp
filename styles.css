@@ -1,3 +1,27 @@
+/* Style for the impact story headline */
+.impact-headline {
+  color: #fff7e1; /* Light cream color for the headline */
+  font-family: 'Proxima Nova', Arial, sans-serif; /* Use Proxima Nova font */
+  font-weight: normal; /* Make the headline normal weight, not bold */
+  font-size: 56px; /* Set a large font size for the headline */
+  margin-left: 20px; /* Move the headline 20px to the right */
+}
+/* This changes the color of just the word "YOU" in the headline */
+.highlight {
+  color: #FFC907; /* Yellow color for "YOU" */
+  font-family: 'Proxima Nova', Arial, sans-serif; /* Use Proxima Nova font */
+  font-weight: normal;
+  font-size: 56px;
+}
+/* Style for the impact story body text */
+.impact-body {
+  color: #fff7e1; /* Light cream color for the body text */
+  font-family: 'Proxima Nova', Arial, sans-serif; /* Use Proxima Nova font */
+  font-weight: normal; /* Make the body text normal weight */
+  font-size: 18px; /* Set a medium font size for the body text */
+  margin-left: 20px; /* Move the body text 20px to the right, matching the headline */
+  text-align: left; /* Make the text left justified */
+}
 /* Style the top banner to use flexbox for layout */
 .top-banner {
   display: flex;                /* Use flexbox for layout */
@@ -149,7 +173,7 @@ h2 {
 .call-to-action {
   background: none; /* No background color */
   color: #222;
-  text-align: center;
+  text-align: left; /* Align content to the left */
   padding: 30px 20px;
 }
 
@@ -224,7 +248,7 @@ section {
   /* Make impact story image smaller and stack above the text */
   .impact-content {
     display: block; /* Stack items vertically */
-    text-align: center;
+    text-align: left; /* Align content to the left */
   }
 
   .impact-image {
