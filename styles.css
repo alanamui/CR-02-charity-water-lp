@@ -17,7 +17,7 @@
 .impact-body {
   color: #fff7e1; /* Light cream color for the body text */
   font-family: 'Proxima Nova', Arial, sans-serif; /* Use Proxima Nova font */
-  font-weight: normal; /* Make the body text normal weight */
+  font-weight: bold; /* Make the body text normal weight */
   font-size: 18px; /* Set a medium font size for the body text */
   margin-left: 20px; /* Move the body text 20px to the right, matching the headline */
   text-align: left; /* Make the text left justified */
@@ -263,11 +263,9 @@ section {
   .impact-content {
     display: flex;           /* Place items in a row */
     align-items: center;     /* Vertically center items */
-    justify-content: center; /* Center the whole group */
     gap: 28px;               /* Space between image and text */
     text-align: left;
     max-width: 800px;
-    margin: 0 auto;
   }
 
   .impact-image {
