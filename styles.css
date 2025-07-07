@@ -1,3 +1,38 @@
+/* Style the top banner to use flexbox for layout */
+.top-banner {
+  display: flex;                /* Use flexbox for layout */
+  align-items: center;          /* Vertically center items */
+  justify-content: space-between; /* Space between logo and nav */
+  background: white;            /* White background for the banner */
+  padding: 10px 30px;           /* Add some space around content */
+}
+
+/* Style the navigation bar to align right and center vertically */
+.navbar {
+  display: flex;                /* Display links in a row */
+  justify-content: flex-end;    /* Push links to the right */
+  align-items: center;          /* Center links vertically */
+  flex: 1;                      /* Take up remaining space */
+}
+
+.navbar a {
+  margin-left: 20px;            /* Space between links */
+  text-decoration: none;        /* No underline */
+  color: #333;                  /* Dark text */
+  font-size: 18px;              /* Larger text */
+}
+
+.navbar a:hover {
+  color: #0074D9;               /* Blue on hover */
+}
+/* Set the background image for the whole page */
+body {
+  background-image: url('https://cdn2.dropmarkusercontent.com/52043/0024fd95f07bd1de043a400c6a5f9ee023ae6f9c805f31249d407784bea7a18a/preview/Zimbabwe_2022_CG-8639.jpg');
+  background-size: cover;         /* Make the image cover the whole page */
+  background-repeat: no-repeat;   /* Prevent the image from repeating */
+  background-position: center;    /* Center the image */
+  min-height: 100vh;              /* Make sure the body is at least the height of the viewport */
+}
 /* charity: water Brand Colors & Fonts
 
 Primary Colors:
