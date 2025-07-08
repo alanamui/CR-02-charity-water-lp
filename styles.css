@@ -3,24 +3,33 @@
   color: #fff7e1; /* Light cream color for the headline */
   font-family: 'Proxima Nova', Arial, sans-serif; /* Use Proxima Nova font */
   font-weight: normal; /* Make the headline normal weight, not bold */
-  font-size: 56px; /* Set a large font size for the headline */
+  font-size: 70px; /* Set a large font size for the headline */
   margin-left: 20px; /* Move the headline 20px to the right */
+  margin-top: 0px;
+  padding-top: 0%;
 }
 /* This changes the color of just the word "YOU" in the headline */
 .highlight {
   color: #FFC907; /* Yellow color for "YOU" */
   font-family: 'Proxima Nova', Arial, sans-serif; /* Use Proxima Nova font */
   font-weight: normal;
-  font-size: 56px;
+  font-size: 70px;
+  margin-top: 0px;
+  padding-top: 0%;
 }
 /* Style for the impact story body text */
 .impact-body {
   color: #fff7e1; /* Light cream color for the body text */
   font-family: 'Proxima Nova', Arial, sans-serif; /* Use Proxima Nova font */
-  font-weight: bold; /* Make the body text normal weight */
-  font-size: 18px; /* Set a medium font size for the body text */
+  font-weight: normal; /* Make the body text normal weight */
+  font-size: 23px; /* Set a medium font size for the body text */
   margin-left: 20px; /* Move the body text 20px to the right, matching the headline */
+  margin-top: -40px; /* Move the body text up by 15px */
   text-align: left; /* Make the text left justified */
+  max-width: 420px; /* Limit the width of the text box */
+  width: 100%; /* Make sure it doesn't overflow on small screens */
+  display: block; /* Makes sure it behaves like a box */
+  line-height: 1.5; /* Make the spacing between lines wider */
 }
 /* Style the top banner to use flexbox for layout */
 .top-banner {
@@ -37,10 +46,11 @@
   justify-content: flex-end;    /* Push links to the right */
   align-items: center;          /* Center links vertically */
   flex: 1;                      /* Take up remaining space */
+  margin-right: 80px;         /* Add space on the right */
 }
 
 .navbar a {
-  margin-left: 20px;            /* Space between links */
+  margin-left: 100px;            /* Space between links */
   text-decoration: none;        /* No underline */
   color: #333;                  /* Dark text */
   font-size: 18px;              /* Larger text */
@@ -52,9 +62,9 @@
 /* Set the background image for the whole page */
 body {
   background-image: url('https://cdn2.dropmarkusercontent.com/52043/0024fd95f07bd1de043a400c6a5f9ee023ae6f9c805f31249d407784bea7a18a/preview/Zimbabwe_2022_CG-8639.jpg?Expires=1751929421&Signature=AURLOLkY-5w-RVJvrGq2H806vRpX341VNei844juNTkpUVeqf~A1H-g2QS0J4kN5Q8nP0lxn-SsrLANg01wr2SzrEThfuKnTJj27dN2cBvpwG0zjJd9AT6vMzw0Uqvt9k~HgOO9kBJ0991F8aZgn-IFddr~CgkCOzcfVCanpP8HDtTN3WwNiis6nNmExTxip0ENZchCEZxpWKWV0nEYax4eRzYk4Bl84IizMvK-mxSbUm2Is~f4wmpYv4dO8asZTqlR13XvKzx-fBeyqak8IstO9V3ZsE1wLCHRcppREN7TIFDPB95QGReVlOuYSkO~AmyW4L67QqADNfDWR4of4Bg__&Key-Pair-Id=APKAITQYWVEN757ZA4KQ');
-  background-size: cover;         /* Make the image cover the whole page */
+  background-size: 100%;         /* Make the image cover the whole page */
   background-repeat: no-repeat;   /* Prevent the image from repeating */
-  background-position: center;    /* Center the image */
+  background-position: center 20px;    /* Center the image */
   min-height: 100vh;              /* Make sure the body is at least the height of the viewport */
 }
 /* charity: water Brand Colors & Fonts
@@ -133,8 +143,8 @@ section {
                 /* Makes the banner stretch across the page */
     /* This moves the logo image to the right and down */
 .logo {
-  margin-left: 20px; /* moves image right */
-  margin-top: 15px;  /* moves image down */
+  margin-left: 15px; /* moves image right */
+  margin-top: 5px;  /* moves image down */
 }
 
 }
@@ -174,7 +184,7 @@ h2 {
   background: none; /* No background color */
   color: #222;
   text-align: left; /* Align content to the left */
-  padding: 30px 20px;
+  padding: 0px;
 }
 
 /* Style the impact story image */
@@ -196,7 +206,8 @@ h2 {
   border-radius: 6px;
   font-weight: bold;
   font-size: 1.1em;
-  margin-top: 18px;
+  margin-top: -30px; /* Bring the button 20px higher */
+  margin-left: 110px; /* Move the button 15px to the right */
   box-shadow: 0 2px 8px rgba(79, 203, 83, 0.10);
   transition: background 0.3s, transform 0.2s;
   border: none;
@@ -205,7 +216,7 @@ h2 {
 
 /* Change button color when hovered */
 .donate-button:hover {
-  background-color: #159A48; /* Dark Green */
+  background-color: #77a8bb; /* Dark Green */
   transform: translateY(-2px) scale(1.04); /* Slight lift */
 }
 
